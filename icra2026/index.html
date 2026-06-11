@@ -18,6 +18,7 @@
   <div class="nav-container">
     <a href="https://manipulation-robustness.github.io/icra2026/index.html#intro">Introduction</a>
     <a href="https://manipulation-robustness.github.io/icra2026/index.html#speakers">Speakers</a>
+    <a href="https://manipulation-robustness.github.io/icra2026/index.html#best-papers">Best Papers</a>
     <a href="https://manipulation-robustness.github.io/icra2026/index.html#call">Call for Papers</a>
     <a href="https://manipulation-robustness.github.io/icra2026/index.html#schedule">Schedule</a>
     <a href="https://manipulation-robustness.github.io/icra2026/index.html#organizers">Organizers</a>
@@ -29,7 +30,7 @@
   <div style="text-align: center;">
     <h1>Workshop on Manipulation Robustness: <br>Towards Human-Level Robustness under Real-World Challenges</h1>
     <div class="subtitle" style="color: #ccc; margin: 20px">
-      ICRA 2026 Workshop, 14:00 - 17:30 (CET), June 5, 2026
+      ICRA 2026 Workshop, June 5, 2026
     </div>
     <!-- <div class="subtitle" style="color: #ccc; margin: 20px">
       <a href="https://www.youtube.com/watch?v=7a5HYjQ4wJo">[Recording]</a>
@@ -43,15 +44,15 @@
     <!-- <div class="subtitle" style="color: #ccc; margin: 20px">
       Submission Portal for Paper: <a href="https://openreview.net/group?id=IEEE.org/ICRA/2026/Workshop/Manipulation_Robustness">OpenReview</a>
     </div> -->
-    <div class="subtitle" style="color: #ccc; margin: 20px">
+    <!-- <div class="subtitle" style="color: #ccc; margin: 20px">
       Location: Hall A3, <a href="https://vieconcenter.at/?lang=en">VIECON</a>
-    </div>
+    </div> -->
     <div class="subtitle" style="color: #ccc; margin: 20px">
       Sponsored by <a href="https://x.com/ARXrobotics">ARX Robotics</a>, <a href="https://www.sudo.ai/">sudo robotics</a>, <a href="https://www.gelsight.com/">GelSight</a>, and <a href="https://ieee-ras-robot-control.github.io/">TC on Robot Control</a>.
       <!-- Best workshop paper awards: two robot arms (sponsored by <a href="https://x.com/ARXrobotics">ARX Robotics</a>) -->
     </div>
     <div class="subtitle" style="color: #ccc; margin: 20px">
-      Zoom livestream: <a href="https://kth-se.zoom.us/my/yifeid">link</a>.
+      Recording: <a href="https://play.kth.se/media/ICRA+2026+Workshop+on+Manipulation+Robustness/0_nn0pqcro?st=180">link</a>.
       <!-- Best workshop paper awards: two robot arms (sponsored by <a href="https://x.com/ARXrobotics">ARX Robotics</a>) -->
     </div>
     <!-- <div class="subtitle" style="color: #ccc; margin: 20px"> -->
@@ -61,6 +62,110 @@
     <!-- </div> -->
   </div>
 </div>
+
+<div class="photo-carousel-wrapper">
+  <div class="photo-carousel" id="photoCarousel">
+    <div class="photo-carousel-track" id="carouselTrack">
+      <img src="images/ws-photos/10064eee-7071-4e99-8ba0-b083d24a188f.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/49266928c8c71140522714bd35d6e798.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/91685e50-5d04-4c1e-9855-f02f2f61c321.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611132814_54_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133046_55_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133053_56_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133057_57_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133109_58_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133115_59_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133115_59_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Screenshot from 2026-06-11 13-40-49.png" alt="Workshop photo">
+      <!-- duplicates for seamless loop -->
+      <img src="images/ws-photos/10064eee-7071-4e99-8ba0-b083d24a188f.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/49266928c8c71140522714bd35d6e798.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/91685e50-5d04-4c1e-9855-f02f2f61c321.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611132814_54_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133046_55_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133053_56_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133057_57_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133109_58_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Weixin Image_20260611133115_59_543.jpg" alt="Workshop photo">
+      <img src="images/ws-photos/Screenshot from 2026-06-11 13-40-49.png" alt="Workshop photo">
+    </div>
+  </div>
+</div>
+
+<style>
+.photo-carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #111;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+.photo-carousel {
+  overflow: hidden;
+  cursor: grab;
+  user-select: none;
+}
+.photo-carousel.grabbing {
+  cursor: grabbing;
+}
+.photo-carousel-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  animation: carousel-scroll 40s linear infinite;
+}
+.photo-carousel-wrapper:hover .photo-carousel-track {
+  animation-play-state: paused;
+}
+.photo-carousel-track img {
+  height: 220px;
+  width: auto;
+  border-radius: 4px;
+  display: block;
+  pointer-events: none;
+}
+@keyframes carousel-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
+
+<script>
+(function () {
+  const carousel = document.getElementById('photoCarousel');
+  const track = document.getElementById('carouselTrack');
+  let isDragging = false, startX = 0, scrollLeft = 0, manualOffset = 0, animStart = null, paused = false;
+
+  carousel.addEventListener('mousedown', function (e) {
+    isDragging = true;
+    carousel.classList.add('grabbing');
+    startX = e.clientX;
+    paused = true;
+    track.style.animationPlayState = 'paused';
+    const mat = new WebKitCSSMatrix(getComputedStyle(track).transform);
+    scrollLeft = mat.m41;
+  });
+  document.addEventListener('mouseup', function () {
+    if (!isDragging) return;
+    isDragging = false;
+    carousel.classList.remove('grabbing');
+    manualOffset = parseFloat(track.style.transform.replace('translateX(', '')) || scrollLeft;
+    paused = false;
+    track.style.animationPlayState = 'running';
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (!isDragging) return;
+    const dx = e.clientX - startX;
+    track.style.transform = 'translateX(' + (scrollLeft + dx) + 'px)';
+    track.style.animation = 'none';
+  });
+  carousel.addEventListener('mouseup', function () {
+    if (!isDragging) return;
+    track.style.animation = '';
+    track.style.transform = '';
+  });
+})();
+</script>
 
 <div class="container">
   <div class="section" id="intro">
@@ -118,6 +223,32 @@
       </a> -->
     </div>
     <p> <small><i>All speakers have confirmed. Listed alphabetically. </i></small> </p>
+  </div>
+  <br>
+
+  <div class="section" id="best-papers">
+    <h2>Best Paper Awards</h2>
+    <ul>
+      <li>
+        <b></b>
+        <a href="https://openreview.net/forum?id=jWl03w0NfH&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DIEEE.org%2FICRA%2F2026%2FWorkshop%2FManipulation_Robustness%2FProgram_Chairs%23submission-status)" target="_blank">
+          Tune to Learn: How Controller Gains Shape Robot Policy Learning
+        </a>
+        <br>
+        Antonia Bronars, Younghyo Park, Pulkit Agrawal
+      </li>
+      <li>
+        <b></b>
+        <a href="https://openreview.net/forum?id=qsaOodrfD2&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DIEEE.org%2FICRA%2F2026%2FWorkshop%2FManipulation_Robustness%2FProgram_Chairs%23submission-status)" target="_blank">
+          HANDLE: Robust Non-prehensile Liquid Manipulation in Cluttered, Human-centric Environments with Physical HRI
+        </a>
+        <br>
+        Yuhe Gong, Junhui Huang, Riddhiman Laha, Zewen Yang, Hao Xing, Ayse Kucukyilmaz, Seth Hutchinson, Luis Figueredo
+      </li>
+    </ul>
+    <p>
+      <a href="https://openreview.net/group?id=IEEE.org/ICRA/2026/Workshop/Manipulation_Robustness&referrer=%5BHomepage%5D(%2F)#tab-accept" target="_blank">View all accepted papers</a>
+    </p>
   </div>
   <br>
 
